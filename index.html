@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nvoice.css">
+    <title>Invoice Generator</title>
+</head>
+<body>
+    <div class="top">
+    <h1 class="header">
+        Invoice Creator
+    </h1>
+    <p>
+        Thank you for choosing Amala-Top Restaurant!
+    </p>
+    </div>
+<div id="tail">
+        <section class="fees">
+            <button id="Amala">Amala one wrap: #500</button>
+            <button id="Cow" onclick="lego()">Cow leg: #900</button>
+            <button id="Fish">Croaker Fish: #600</button>
+        </section>
+    <hr>
+    <br>
+    <div class="fees1">
+        <p class="food">Food</p>
+        <p class="amount">Amount(#)</p>
+    </div>
+    <br>
+    <aside class="fees1">
+            <p id="food-items"></p>
+            <p id="food-amount"></p>
+    </aside>
+    <div class="fees1">
+        <p id="food-items-cow"></p>
+        <p id="food-amount-cow"></p>
+    </div>
+    <div class="fees1">
+        <p id="food-items-fish"></p>
+        <p id="food-amount-fish"></p>
+    </div>
+    <br>
+    <div>
+        <p class="total">Total Amount</p>
+        <p class="total" id="feesa">#</p>
+    </div>
+   
+</div>
+    
+    <script src="invoice.js"></script>
+</body>
+</html>
