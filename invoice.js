@@ -13,14 +13,14 @@ const fishh = 600
 Amal.addEventListener('click', function(){
      FoodItem.textContent = "Amala"
      foodAmount.textContent = wrap
-     fee.textContent = wrap
+
     console.log("To test Amala")
 })
 
 function lego(){
     FoodItemsCow.textContent = "Cow Leg"
     FoodAmountCow.textContent = legg
-    fee.textContent = legg + wrap
+
     console.log("I am great!")
 }
 
