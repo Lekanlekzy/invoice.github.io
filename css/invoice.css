@@ -35,7 +35,7 @@ button{
     padding: 9px 13px;
     background-color:#D1D4F4;
     margin: 3rem 2rem;
-    
+    font-family: 'Nunito', sans-serif;
     cursor: pointer;
 }
 
@@ -51,4 +51,25 @@ button{
     text-align: right;
     margin: 1rem 3rem;
     color: rgb(216, 210, 198);
+}
+
+#print-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.print{
+    padding: 1rem 7rem;
+    border-radius: 7px;
+    align-items: center;
+    background:  #3A69D2;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+.print:hover,
+.print:active{
+    padding: 1rem 8rem;
+    border-radius: 15px;
 }
